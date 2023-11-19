@@ -84,11 +84,6 @@ _G.packer_plugins = {
     path = "/home/hill/.local/share/nvim/site/pack/packer/start/blame.nvim",
     url = "https://github.com/FabijanZulj/blame.nvim"
   },
-  ["bluloco.nvim"] = {
-    loaded = true,
-    path = "/home/hill/.local/share/nvim/site/pack/packer/start/bluloco.nvim",
-    url = "https://github.com/uloco/bluloco.nvim"
-  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/hill/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -109,11 +104,6 @@ _G.packer_plugins = {
     path = "/home/hill/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
-  ["lush.nvim"] = {
-    loaded = true,
-    path = "/home/hill/.local/share/nvim/site/pack/packer/start/lush.nvim",
-    url = "https://github.com/rktjmp/lush.nvim"
-  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/home/hill/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -123,6 +113,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/hill/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["newpaper.nvim"] = {
+    loaded = true,
+    path = "/home/hill/.local/share/nvim/site/pack/packer/start/newpaper.nvim",
+    url = "https://github.com/yorik1984/newpaper.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,

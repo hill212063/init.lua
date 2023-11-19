@@ -40,11 +40,8 @@ return require('packer').startup(function(use)
 	  "williamboman/mason-lspconfig.nvim",
   }
   use {
-    'uloco/bluloco.nvim',
-    requires = { 'rktjmp/lush.nvim' }
-  }
-  use {
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
+  use ("yorik1984/newpaper.nvim")
 end)
