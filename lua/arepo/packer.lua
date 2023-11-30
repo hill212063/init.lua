@@ -44,4 +44,5 @@ return require('packer').startup(function(use)
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
   use ("yorik1984/newpaper.nvim")
+  use { 'mhartington/formatter.nvim' }
 end)
