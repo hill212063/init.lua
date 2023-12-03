@@ -8,7 +8,18 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-  ensure_installed = {'lua_ls', 'jsonls', 'tsserver', 'html', 'cssls', 'dockerls', 'docker_compose_language_service', 'ruby_ls','lemminx', 'yamlls', 'bashls'},
+  ensure_installed = {'lua_ls',
+  'jsonls',
+  'tsserver',
+  'html',
+  'cssls',
+  'dockerls',
+  'docker_compose_language_service',
+  'ruby_ls',
+  'lemminx',
+  'yamlls',
+  'jedi_language_server',
+  'bashls'},
   handlers = {
     lsp_zero.default_setup,
   },
