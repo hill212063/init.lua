@@ -19,6 +19,7 @@ require('mason-lspconfig').setup({
   'lemminx',
   'yamlls',
   'jedi_language_server',
+  'clangd',
   'bashls'},
   handlers = {
     lsp_zero.default_setup,

@@ -16,7 +16,7 @@ return require('packer').startup(function(use)
   use ('mbbill/undotree')
   use ('tpope/vim-fugitive')
   use ('rbong/vim-flog')
-  use ("FabijanZulj/blame.nvim")
+  use ('FabijanZulj/blame.nvim')
   use ('nvim-tree/nvim-web-devicons')
   use ('lewis6991/gitsigns.nvim')
   use {
@@ -36,13 +36,14 @@ return require('packer').startup(function(use)
 	  }
   }
   use {
-	  "williamboman/mason.nvim",
-	  "williamboman/mason-lspconfig.nvim",
+	  'williamboman/mason.nvim',
+	  'williamboman/mason-lspconfig.nvim',
   }
   use {
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
-  use ("yorik1984/newpaper.nvim")
-  use { 'mhartington/formatter.nvim' }
+  use {'yorik1984/newpaper.nvim'}
+  use {'mhartington/formatter.nvim'}
+  use {'sbdchd/neoformat'}
 end)
