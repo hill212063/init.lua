@@ -20,6 +20,7 @@ require('mason-lspconfig').setup({
   'yamlls',
   'jedi_language_server',
   'clangd',
+  'rust_analyzer',
   'bashls'},
   handlers = {
     lsp_zero.default_setup,
