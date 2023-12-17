@@ -21,7 +21,7 @@ require('mason-lspconfig').setup({
   'jedi_language_server',
   'clangd',
   'rust_analyzer',
-  'golangci_lint_ls',
+  'gopls',
   'bashls'},
   handlers = {
     lsp_zero.default_setup,
