@@ -43,9 +43,11 @@ return require('packer').startup(function(use)
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
-  use {'yorickpeterse/vim-paper'}
+  use {'fcpg/vim-orbital'}
   use {'mhartington/formatter.nvim'}
   use {'sbdchd/neoformat'}
   use {'m4xshen/autoclose.nvim'}
   use {'numToStr/Comment.nvim'}
+  use {'mfussenegger/nvim-dap'}
+  use {'leoluz/nvim-dap-go'}
 end)
