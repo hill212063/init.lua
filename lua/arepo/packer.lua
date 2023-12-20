@@ -43,7 +43,7 @@ return require('packer').startup(function(use)
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
-  use {'fcpg/vim-orbital'}
+  use {'josegamez82/starrynight'}
   use {'mhartington/formatter.nvim'}
   use {'sbdchd/neoformat'}
   use {'m4xshen/autoclose.nvim'}

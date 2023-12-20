@@ -1,1 +1,1 @@
-vim.cmd [[colorscheme orbital]]
+vim.cmd('colorscheme starrynight')
