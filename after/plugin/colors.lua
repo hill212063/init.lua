@@ -1,1 +1,1 @@
-vim.cmd('colorscheme starrynight')
+vim.cmd('colorscheme modus')
