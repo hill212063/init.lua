@@ -44,7 +44,7 @@ return require('packer').startup(function(use)
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
   use {'miikanissi/modus-themes.nvim'}
-  use {'mhartington/formatter.nvim'}
+  use {'stevearc/conform.nvim'}
   use {'sbdchd/neoformat'}
   use {'m4xshen/autoclose.nvim'}
   use {'numToStr/Comment.nvim'}
