@@ -1,1 +1,2 @@
-vim.cmd('colorscheme modus')
+vim.g.newpaper_style = "light"
+require("newpaper").setup()

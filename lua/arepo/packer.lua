@@ -43,7 +43,7 @@ return require('packer').startup(function(use)
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }
   }
-  use {'miikanissi/modus-themes.nvim'}
+  use {'yorik1984/newpaper.nvim'}
   use {'stevearc/conform.nvim'}
   use {'sbdchd/neoformat'}
   use {'m4xshen/autoclose.nvim'}
