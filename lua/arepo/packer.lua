@@ -49,5 +49,4 @@ return require('packer').startup(function(use)
   use {'m4xshen/autoclose.nvim'}
   use {'numToStr/Comment.nvim'}
   use {'mfussenegger/nvim-dap'}
-  use {'leoluz/nvim-dap-go'}
 end)

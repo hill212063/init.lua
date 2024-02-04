@@ -23,6 +23,7 @@ require('mason-lspconfig').setup({
     'clangd',
     'rust_analyzer',
     'gopls',
+    'elixirls',
     'bashls' },
   handlers = {
     lsp_zero.default_setup,
