@@ -45,7 +45,6 @@ return require('packer').startup(function(use)
   }
   use {'yorik1984/newpaper.nvim'}
   use {'stevearc/conform.nvim'}
-  use {'sbdchd/neoformat'}
   use {'m4xshen/autoclose.nvim'}
   use {'numToStr/Comment.nvim'}
   use {'mfussenegger/nvim-dap'}
